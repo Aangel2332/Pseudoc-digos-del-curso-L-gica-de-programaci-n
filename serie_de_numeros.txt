@@ -1,0 +1,22 @@
+Algoritmo serie_de_numeros
+	definir x Como Entero
+	escribir "Ingresa la cantidad de numeros que tendrá la serie"
+	leer x
+	
+	//contador: Se inicializa en 0 para llevar la cuenta de cuántos términos de la serie se han mostrado.
+	contador = 0
+	
+	//termino: Se inicializa en 1, ya que la serie comienza con este valor.
+	termino = 1
+	
+	//Ésta operación: "<= x-1" lo que dice es que la cantidad que se ingrese al principio del pseudocódigo será estrictamente la ingresada, ni un número mas ni uno menos.
+	Mientras contador <= x-1 Hacer
+		escribir termino 
+		//Incrementa el valor de termino en 2. Esto significa que cada término en la serie es dos unidades más grande que el término anterior.
+		termino = termino + 2
+		//Incrementa el valor de contador en 1. Esto lleva un registro de cuántos términos se han mostrado hasta el momento.  
+		contador = contador + 1
+	FinMientras
+	
+
+FinAlgoritmo

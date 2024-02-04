@@ -1,0 +1,10 @@
+Algoritmo salario
+	definir a Como Real
+	escribir "Escribe las horas trabajadas"
+	Leer a
+	escribir "Escribe el valor por hora"
+	definir b Como Real
+	leer b
+	x <- a * b
+	Imprimir "Tu salario total es: " , x , "$"
+FinAlgoritmo

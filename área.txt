@@ -1,0 +1,10 @@
+Algoritmo área_rectángulo
+	definir a Como Real
+	Escribir "Ingresa la dimension de la base"
+	leer a
+	Escribir "Ingresa la longitud de la altura"
+	definir b Como Real
+	leer b
+	x <- a * b
+	imprimir "El área del rectángulo es: " , x , " m^2"
+FinAlgoritmo

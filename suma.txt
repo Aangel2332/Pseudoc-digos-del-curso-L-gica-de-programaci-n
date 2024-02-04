@@ -1,0 +1,10 @@
+Algoritmo suma
+	definir a Como Real
+	Escribir "Ingresa un numero"
+	Leer  a 
+	escribir "Ingresa otro numero"
+	definir b Como Real
+	leer b
+	x <- a + b
+	Imprimir "El resultado de la suma es: " , x	
+FinAlgoritmo

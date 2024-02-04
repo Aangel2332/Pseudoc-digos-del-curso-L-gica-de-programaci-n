@@ -1,0 +1,11 @@
+Algoritmo promedio
+	definir a, b, c, d Como Real
+	escribir "Escribe las calificaciones obtenidas por cuatrimestre"
+	leer a, b, c, d
+	x <- (a+b+c+d)/4
+	Si x>=8 Entonces
+		Escribir "Exenta examen final, calificación obtenida: ", x 
+	SiNo
+		Escribir "Debe presentar examen final, calificación obtenida: ", x
+	Fin Si
+FinAlgoritmo

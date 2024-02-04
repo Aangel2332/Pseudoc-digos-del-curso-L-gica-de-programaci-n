@@ -1,0 +1,10 @@
+Algoritmo determinar_positivo_negativo
+	definir a Como Real
+	escribir "Determinaremos si un número es positivo o negativo, a continuación escribe un número: "
+	leer a 
+	Si a>0 Entonces
+		escribir "El número dado es positivo"
+	SiNo
+		escribir "El número dado es negativo"
+	Fin Si
+FinAlgoritmo

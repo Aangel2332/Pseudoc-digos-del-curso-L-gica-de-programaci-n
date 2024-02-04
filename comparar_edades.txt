@@ -1,0 +1,13 @@
+Algoritmo comparar_edades
+	Definir a Como Entero
+	escribir "Determinaremos a qué grupo de edad perteneces, a continuación escribe tu edad: "
+	leer a 
+	Si a>=18 Entonces
+		Escribir "Eres mayor de edad"
+	SiNo
+		Escribir "Eres menor de edad"
+	Si a>=60 Entonces
+		Escribir "Eres un adulto mayor"
+		FinSi
+	    FinSi
+FinAlgoritmo

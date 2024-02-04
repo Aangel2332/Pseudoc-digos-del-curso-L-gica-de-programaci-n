@@ -1,0 +1,21 @@
+Algoritmo total_nómina
+	
+	//totalNomina: Se inicializa en 0 para acumular los sueldos de los empleados.
+	totalNomina=0
+	
+	//sueldoEmpleados: Se establece en 10, indicando la cantidad de empleados.
+	sueldoEmpleados=10
+	
+	para i desde 1 hasta 10 hacer 
+		//El bucle Para se utiliza para iterar desde i = 1 hasta i = 10.
+		Escribir "Ingrese el sueldo de cada empleado "
+		Leer sueldoEmpleados
+		//Leer sueldoEmpleado: Lee el sueldo ingresado por el usuario y lo almacena en la variable sueldoEmpleado.
+		totalNomina = totalNomina + sueldoEmpleados
+		//totalNomina = totalNomina + sueldoEmpleado: Acumula el sueldo actual al total de la nómina.
+	Fin Para
+	
+	Escribir "El total de la nómina de la empresa es: ", totalNomina
+
+	
+FinAlgoritmo

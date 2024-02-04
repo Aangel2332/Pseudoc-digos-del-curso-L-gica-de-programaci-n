@@ -1,0 +1,10 @@
+Algoritmo velocidad
+	definir x Como Real
+	escribir "escribe el valor de la distancia"
+	leer x
+	Escribir "escribe el valor del tiempo"
+	definir t Como Real
+	leer t 
+	v <- x/t
+	imprimir "La velocidad total es:" v , "m/s"
+FinAlgoritmo

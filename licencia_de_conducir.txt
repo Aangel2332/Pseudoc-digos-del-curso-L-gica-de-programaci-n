@@ -1,0 +1,10 @@
+Algoritmo  licencia_de_conducir
+	definir edad Como Entero
+	escribir "Ingresa tu edad"
+	Leer edad
+	si edad >= 18 Entonces
+		escribir "Recibirás tu licencia de conducir"
+	SiNo
+		Escribir "No recibirás tu licencia de conducir"
+	FinSi
+FinAlgoritmo
